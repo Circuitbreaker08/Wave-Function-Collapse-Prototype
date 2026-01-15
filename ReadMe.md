@@ -2,7 +2,7 @@
 ## For Everyone
 Start with smaller numbers for board sizes.
 All rules are in rules.json and should be deducable how to alter them.
-## For Admissions Officers
+## For Honors Admissions Officers
 
 This project was submitted by for the project sections of the AP Computer Science Principle exam.
 The project is in its original state with the exception with some tweaked generation rules for some better results and a slight bug fix for better usability.  
