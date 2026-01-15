@@ -1,0 +1,721 @@
+{
+    "grass": {
+        "sprite": "grass.png",
+        "rotation": 0,
+        "directionality": "sided",
+        "valid_neighbors_N": [
+            {
+                "tile": "grass",
+                "weight": 60
+            },
+            {
+                "tile": "grass_hills",
+                "weight": 30
+            },
+            {
+                "tile": "grass_river_horizontal",
+                "weight": 3
+            },
+            {
+                "tile": "grass_river_NE",
+                "weight": 1
+            },
+            {
+                "tile": "grass_river_NW",
+                "weight": 1
+            },
+            {
+                "tile": "water",
+                "weight": 1
+            }
+        ],
+        "valid_neighbors_E": [
+            {
+                "tile": "grass",
+                "weight": 60
+            },
+            {
+                "tile": "grass_hills",
+                "weight": 30
+            },
+            {
+                "tile": "grass_river_vertical",
+                "weight": 3
+            },
+            {
+                "tile": "grass_river_NE",
+                "weight": 1
+            },
+            {
+                "tile": "grass_river_SE",
+                "weight": 1
+            }
+
+        ],
+        "valid_neighbors_S": [
+            {
+                "tile": "grass",
+                "weight": 60
+            },
+            {
+                "tile": "grass_hills",
+                "weight": 30
+            },
+            {
+                "tile": "grass_river_horizontal",
+                "weight": 3
+            },
+            {
+                "tile": "grass_river_SE",
+                "weight": 1
+            },
+            {
+                "tile": "grass_river_SW",
+                "weight": 1
+            }
+        ],
+        "valid_neighbors_W": [
+            {
+                "tile": "grass",
+                "weight": 60
+            },
+            {
+                "tile": "grass_hills",
+                "weight": 30
+            },
+            {
+                "tile": "grass_river_vertical",
+                "weight": 3
+            },
+            {
+                "tile": "grass_river_NW",
+                "weight": 1
+            },
+            {
+                "tile": "grass_river_SW",
+                "weight": 1
+            }
+        ]
+    },
+    "grass_hills": {
+        "sprite": "grass_hills.png",
+        "rotation": 0,
+        "directionality": "sided",
+        "valid_neighbors_N": [
+            {
+                "tile": "grass",
+                "weight": 15
+            },
+            {
+                "tile": "grass_hills",
+                "weight": 20
+            },
+            {
+                "tile": "grass_river_horizontal",
+                "weight": 2
+            },
+            {
+                "tile": "grass_river_NE",
+                "weight": 2
+            },
+            {
+                "tile": "grass_river_NW",
+                "weight": 2
+            }
+        ],
+        "valid_neighbors_S": [
+            {
+                "tile": "grass",
+                "weight": 15
+            },
+            {
+                "tile": "grass_hills",
+                "weight": 20
+            },
+            {
+                "tile": "grass_river_horizontal",
+                "weight": 2
+            },
+            {
+                "tile": "grass_river_SE",
+                "weight": 2
+            },
+            {
+                "tile": "grass_river_SW",
+                "weight": 2
+            }
+        ],
+        "valid_neighbors_W": [
+            {
+                "tile": "grass",
+                "weight": 15
+            },
+            {
+                "tile": "grass_hills",
+                "weight": 20
+            },
+            {
+                "tile": "grass_river_vertical",
+                "weight": 2
+            },
+            {
+                "tile": "grass_river_NW",
+                "weight": 2
+            },
+            {
+                "tile": "grass_river_SW",
+                "weight": 2
+            }
+        ],
+        "valid_neighbors_E": [
+            {
+                "tile": "grass",
+                "weight": 15
+            },
+            {
+                "tile": "grass_hills",
+                "weight": 20
+            },
+            {
+                "tile": "grass_river_vertical",
+                "weight": 2
+            },
+            {
+                "tile": "grass_river_NE",
+                "weight": 2
+            },
+            {
+                "tile": "grass_river_SE",
+                "weight": 2
+            }
+        ]
+    },
+    "grass_river_horizontal": {
+        "sprite": "grass_river.png",
+        "rotation": 0,
+        "directionality": "sided",
+        "valid_neighbors_E": [
+            {
+                "tile": "grass_river_horizontal",
+                "weight": 10
+            },
+            {
+                "tile": "grass_river_NE",
+                "weight": 5
+            },
+            {
+                "tile": "grass_river_SE",
+                "weight": 5
+            },
+            {
+                "tile": "water",
+                "weight": 1
+            }
+        ],
+        "valid_neighbors_W": [
+            {
+                "tile": "grass_river_horizontal",
+                "weight": 10
+            },
+            {
+                "tile": "grass_river_NW",
+                "weight": 5
+            },
+            {
+                "tile": "grass_river_SW",
+                "weight": 5
+            },
+            {
+                "tile": "water",
+                "weight": 1
+            }
+        ],
+        "valid_neighbors_N": [
+            {
+                "tile": "grass",
+                "weight": 1
+            },
+            {
+                "tile": "grass_hills",
+                "weight": 2
+            }
+        ],
+        "valid_neighbors_S": [
+            {
+                "tile": "grass",
+                "weight": 1
+            },
+            {
+                "tile": "grass_hills",
+                "weight": 2
+            }
+        ]
+    },
+    "grass_river_vertical": {
+        "sprite": "grass_river.png",
+        "rotation": 1,
+        "directionality": "sided",
+        "valid_neighbors_N": [
+            {
+                "tile": "grass_river_vertical",
+                "weight": 10
+            },
+            {
+                "tile": "grass_river_NE",
+                "weight": 5
+            },
+            {
+                "tile": "grass_river_NW",
+                "weight": 5
+            },
+            {
+                "tile": "water",
+                "weight": 1
+            }
+        ],
+        "valid_neighbors_S": [
+            {
+                "tile": "grass_river_vertical",
+                "weight": 10
+            },
+            {
+                "tile": "grass_river_SW",
+                "weight": 5
+            },
+            {
+                "tile": "grass_river_SE",
+                "weight": 5
+            },
+            {
+                "tile": "water",
+                "weight": 1
+            }
+        ],
+        "valid_neighbors_E": [
+            {
+                "tile": "grass",
+                "weight": 1
+            },
+            {
+                "tile": "grass_hills",
+                "weight": 2
+            }
+        ],
+        "valid_neighbors_W": [
+            {
+                "tile": "grass",
+                "weight": 1
+            },
+            {
+                "tile": "grass_hills",
+                "weight": 2
+            }
+        ]
+    },
+    "grass_river_NE": {
+        "sprite": "grass_river_bend.png",
+        "rotation": 1,
+        "directionality": "sided",
+        "valid_neighbors_N": [
+            {
+                "tile": "grass_river_vertical",
+                "weight": 10
+            },
+            {
+                "tile": "water",
+                "weight": 1
+            }
+        ],
+        "valid_neighbors_E": [
+            {
+                "tile": "grass_river_horizontal",
+                "weight": 10
+            },
+            {
+                "tile": "water",
+                "weight": 1
+            }
+        ],
+        "valid_neighbors_S": [
+            {
+                "tile": "grass",
+                "weight": 1
+            },
+            {
+                "tile": "grass_hills",
+                "weight": 2
+            }
+        ],
+        "valid_neighbors_W": [
+            {
+                "tile": "grass",
+                "weight": 1
+            },
+            {
+                "tile": "grass_hills",
+                "weight": 2
+            }
+        ]
+    },
+    "grass_river_SE": {
+        "sprite": "grass_river_bend.png",
+        "rotation": 0,
+        "directionality": "sided",
+        "valid_neighbors_S": [
+            {
+                "tile": "grass_river_vertical",
+                "weight": 10
+            },
+            {
+                "tile": "water",
+                "weight": 1
+            }
+        ],
+        "valid_neighbors_E": [
+            {
+                "tile": "grass_river_horizontal",
+                "weight": 10
+            },
+            {
+                "tile": "water",
+                "weight": 1
+            }
+        ],
+        "valid_neighbors_N": [
+            {
+                "tile": "grass",
+                "weight": 1
+            },
+            {
+                "tile": "grass_hills",
+                "weight": 2
+            }
+        ],
+        "valid_neighbors_W": [
+            {
+                "tile": "grass",
+                "weight": 1
+            },
+            {
+                "tile": "grass_hills",
+                "weight": 2
+            }
+        ]
+    },
+    "grass_river_SW": {
+        "sprite": "grass_river_bend.png",
+        "rotation": 3,
+        "directionality": "sided",
+        "valid_neighbors_S": [
+            {
+                "tile": "grass_river_vertical",
+                "weight": 10
+            },
+            {
+                "tile": "water",
+                "weight": 1
+            }
+        ],
+        "valid_neighbors_W": [
+            {
+                "tile": "grass_river_horizontal",
+                "weight": 10
+            },
+            {
+                "tile": "water",
+                "weight": 1
+            }
+        ],
+        "valid_neighbors_N": [
+            {
+                "tile": "grass",
+                "weight": 1
+            },
+            {
+                "tile": "grass_hills",
+                "weight": 2
+            }
+        ],
+        "valid_neighbors_E": [
+            {
+                "tile": "grass",
+                "weight": 1
+            },
+            {
+                "tile": "grass_hills",
+                "weight": 2
+            }
+        ]
+    },
+    "grass_river_NW": {
+        "sprite": "grass_river_bend.png",
+        "rotation": 2,
+        "directionality": "sided",
+        "valid_neighbors_N": [
+            {
+                "tile": "grass_river_vertical",
+                "weight": 10
+            },
+            {
+                "tile": "water",
+                "weight": 1
+            }
+        ],
+        "valid_neighbors_W": [
+            {
+                "tile": "grass_river_horizontal",
+                "weight": 10
+            },
+            {
+                "tile": "water",
+                "weight": 1
+            }
+        ],
+        "valid_neighbors_S": [
+            {
+                "tile": "grass",
+                "weight": 1
+            },
+            {
+                "tile": "grass_hills",
+                "weight": 2
+            }
+        ],
+        "valid_neighbors_E": [
+            {
+                "tile": "grass",
+                "weight": 1
+            },
+            {
+                "tile": "grass_hills",
+                "weight": 2
+            }
+        ]
+    },
+    "grass_river_end_N": {
+        "sprite": "grass_river_end.png",
+        "rotation": 1,
+        "directionality": "front_N",
+        "valid_neighbors_front": [
+            {
+                "tile": "grass_river_vertical",
+                "weight": 10
+            },
+            {
+                "tile": "grass_river_SE",
+                "weight": 1
+            },
+            {
+                "tile": "grass_river_SW",
+                "weight": 1
+            }
+        ],
+        "valid_neighbors_sides": [
+            {
+                "tile": "grass",
+                "weight": 1
+            },
+            {
+                "tile": "grass_hills",
+                "weight": 2
+            }
+        ]
+    },
+    "grass_river_end_E": {
+        "sprite": "grass_river_end.png",
+        "rotation": 0,
+        "directionality": "front_E",
+        "valid_neighbors_front": [
+            {
+                "tile": "grass_river_horizontal",
+                "weight": 10
+            },
+            {
+                "tile": "grass_river_NW",
+                "weight": 1
+            },
+            {
+                "tile": "grass_river_SW",
+                "weight": 1
+            }
+        ],
+        "valid_neighbors_sides": [
+            {
+                "tile": "grass",
+                "weight": 1
+            },
+            {
+                "tile": "grass_hills",
+                "weight": 2
+            }
+        ]
+    },
+    "grass_river_end_S": {
+        "sprite": "grass_river_end.png",
+        "rotation": 3,
+        "directionality": "front_S",
+        "valid_neighbors_front": [
+            {
+                "tile": "grass_river_vertical",
+                "weight": 10
+            },
+            {
+                "tile": "grass_river_NW",
+                "weight": 1
+            },
+            {
+                "tile": "grass_river_SW",
+                "weight": 1
+            }
+        ],
+        "valid_neighbors_sides": [
+            {
+                "tile": "grass",
+                "weight": 1
+            },
+            {
+                "tile": "grass_hills",
+                "weight": 2
+            }
+        ]
+    },
+    "grass_river_end_W": {
+        "sprite": "grass_river_end.png",
+        "rotation": 2,
+        "directionality": "front_W",
+        "valid_neighbors_front": [
+            {
+                "tile": "grass_river_horizontal",
+                "weight": 10
+            },
+            {
+                "tile": "grass_river_NE",
+                "weight": 1
+            },
+            {
+                "tile": "grass_river_SE",
+                "weight": 1
+            }
+        ],
+        "valid_neighbors_sides": [
+            {
+                "tile": "grass",
+                "weight": 1
+            },
+            {
+                "tile": "grass_hills",
+                "weight": 2
+            }
+        ]
+    },
+    "water": {
+        "sprite": "water.png",
+        "rotation": 0,
+        "directionality": "sided",
+        "valid_neighbors_N": [
+            {
+                "tile": "water",
+                "weight": 100
+            },
+            {
+                "tile": "grass",
+                "weight": 30
+            },
+            {
+                "tile": "grass_hills",
+                "weight": 5
+            },
+            {
+                "tile": "grass_river_vertical",
+                "weight": 3
+            },
+            {
+                "tile": "grass_river_SE",
+                "weight": 1
+            },
+            {
+                "tile": "grass_river_SW",
+                "weight": 1
+            }
+        ],
+        "valid_neighbors_E": [
+            {
+                "tile": "water",
+                "weight": 100
+            },
+            {
+                "tile": "grass",
+                "weight": 30
+            },
+            {
+                "tile": "grass_hills",
+                "weight": 5
+            },
+            {
+                "tile": "grass_river_horizontal",
+                "weight": 3
+            },
+            {
+                "tile": "grass_river_NW",
+                "weight": 1
+            },
+            {
+                "tile": "grass_river_SW",
+                "weight": 1
+            }
+
+        ],
+        "valid_neighbors_S": [
+            {
+                "tile": "water",
+                "weight": 100
+            },
+            {
+                "tile": "grass",
+                "weight": 30
+            },
+            {
+                "tile": "grass_hills",
+                "weight": 5
+            },
+            {
+                "tile": "grass_river_vertical",
+                "weight": 3
+            },
+            {
+                "tile": "grass_river_NE",
+                "weight": 1
+            },
+            {
+                "tile": "grass_river_NW",
+                "weight": 1
+            }
+        ],
+        "valid_neighbors_W": [
+            {
+                "tile": "water",
+                "weight": 100
+            },
+            {
+                "tile": "grass",
+                "weight": 30
+            },
+            {
+                "tile": "grass_hills",
+                "weight": 5
+            },
+            {
+                "tile": "grass_river_horizontal",
+                "weight": 3
+            },
+            {
+                "tile": "grass_river_NE",
+                "weight": 1
+            },
+            {
+                "tile": "grass_river_SE",
+                "weight": 1
+            }
+        ]
+    }
+}
